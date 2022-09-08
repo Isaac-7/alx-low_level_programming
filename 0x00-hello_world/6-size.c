@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-         char cp;
+         char c;
          int i;
 	 long li;
 	 long long lli;
