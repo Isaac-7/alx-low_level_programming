@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _abs -function for absolute value
  * @c: int for argument
