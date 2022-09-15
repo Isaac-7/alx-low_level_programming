@@ -2,8 +2,8 @@
 
 /**
  * mul - function to multiply
- * @a - argument to mul
- * @b - argument to mul
+ * @a: argument to mul
+ * @b: argument to mul
  * Return: 0
  */
 
