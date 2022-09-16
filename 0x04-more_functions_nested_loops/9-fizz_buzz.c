@@ -34,9 +34,9 @@ int main(void)
 		}
 		else
 		{
-			putchar(i);
-			putchar(' ');
+			printf("%d ", i);
 		}
 	}
-	putchar('\n');
+	printf("\n");
+	return (0);
 }
