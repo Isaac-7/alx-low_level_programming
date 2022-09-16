@@ -27,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			printf(i);
+			putchar(i);
 			putchar(' ');
 		}
 	}
