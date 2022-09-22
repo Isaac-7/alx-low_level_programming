@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 
 /**
  * string_toupper - change all lower case to upper
@@ -6,10 +8,10 @@
  * Return: returns a character
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 	int i = 0;
-	char b;
+	char str = *;
 
 	while (str[i++])
 	{
@@ -17,7 +19,6 @@ char *string_toupper(char *str)
 		{
 			str[i] -= 32;
 		}
-		str = b;
-		return (b);
+		return (str);
 	}
 }
