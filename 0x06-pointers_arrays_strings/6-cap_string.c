@@ -21,11 +21,10 @@ char *cap_string(char *str)
 			if ((a == 0 || str[a - 1] == spc[i]) && (str[a] >= 97 && str[a] <= 122))
 			{
 				str[a] = str[a] - 32;
-				
 			}
 			i++;
 		}
-		a++; 
+		a++;
 	}
 	return (str);
 }
