@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - h
@@ -9,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int result, num1, num2;
+	int result = 0, num1, num2;
 
 	if (argc != 3)
 	{
