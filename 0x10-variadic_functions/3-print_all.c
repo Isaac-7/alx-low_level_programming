@@ -9,7 +9,7 @@
  * Return: no
  */
 
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 	va_list valist;
 	unsigned int i = 0, j, c = 0;
